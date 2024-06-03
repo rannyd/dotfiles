@@ -32,6 +32,11 @@ newprj () {
     mkdir -p "$1" && vsc "$1"
     }
 
+# Get environmental variables from ~/.env_vars if it exists (separate work-related variables)
+if [ -f ~/.env_vars ]; then
+    source ~/.env_vars
+fi
+
 # Aliases
 alias zshconf="code ~/.zshrc" # Requires VSCode "code" command
 alias zshsrc="source ~/.zshrc"
