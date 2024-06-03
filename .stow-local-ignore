@@ -1,0 +1,7 @@
+# general things to ignore when stowing
+\.DS_Store
+\.git*
+
+# things kept in dotfiles repo, but not needing to be symlinked to home
+\.iterm2 
+\setup_omz.sh
