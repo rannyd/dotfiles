@@ -1,6 +1,8 @@
 # general things to ignore when stowing
 \.DS_Store
-\.git*
+\.gitignore
+\.gitmodules
+\.git
 
 # things kept in dotfiles repo, but not needing to be symlinked to home
 \.iterm2 
