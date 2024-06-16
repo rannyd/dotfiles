@@ -41,3 +41,9 @@ fi
 alias zshconf="code ~/.zshrc" # Requires VSCode "code" command
 alias zshsrc="source ~/.zshrc"
 alias python="python3"
+
+# Go Env Vars
+export GOROOT=/usr/local/go
+export GOPATH=/Users/danny/go
+export PATH=$GOPATH/bin:$PATH 
+export PATH=$PATH:$GOROOT/bin
