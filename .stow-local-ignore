@@ -3,6 +3,7 @@
 \.gitignore
 \.gitmodules
 \.git
+\README.md
 
 # things kept in dotfiles repo, but not needing to be symlinked to home
 \.iterm2 
